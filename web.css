@@ -1,0 +1,48 @@
+.frame{
+	width: 1252px;
+	height: 1420px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(img/img2.gif);
+}
+.header{
+	width: auto;
+	height: 37px;
+	background: url(img/img1.gif);
+}
+.mini_box{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 7px
+}
+.mini_box a{
+	color: white;
+	text-decoration: none;
+	font-family:  Arial,Verdana,Sans-serif;
+	font-size: 13px
+}
+a:hover{
+	color: red
+}
+.login_topright{
+	float: right;
+	padding-top: 3px;
+	width: 79px
+}
+.text li{
+	list-style: none;
+	display:block;
+	width: 200px;
+	height: 20px;
+	background-color: blue;
+}
+.hidden{
+	display: none;
+}
+div .text li:hover .hidden{
+	display: block;
+
+}
+
